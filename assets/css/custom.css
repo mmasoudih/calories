@@ -1,3 +1,7 @@
+@import '../font/fonts.css';
+*{
+    font-family: "Vazir-Persian" !important;
+}
 .rtl{
     direction: rtl;
 }
