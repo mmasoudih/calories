@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>محاسبه کننده کالری</title>
+    <link rel="stylesheet" href="assets/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
+</head>
+<body>
+
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar uk-background-secondary uk-width-1-1">
+            <div class="uk-navbar-center uk-padding-small">
+                <h1 class="uk-text-large uk-margin-remove uk-text-muted">محاسبه کننده کالری</h1>
+            </div>
+            <div class="uk-navbar-left uk-padding-small">
+                <button class="uk-button uk-button-danger uk-responsive-width uk-visible@s " uk-hidden>حذف همه</button>
+                <button class="uk-button uk-button-danger uk-button-small uk-hidden@s" type="button" uk-toggle="target: #offcanvas-push">
+                    <span class="uk-icon" uk-icon="menu"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="uk-container rtl">
+        <div class="uk-card uk-card-body uk-card-default uk-margin-medium-top">
+            <h3 class="uk-card-title">افزودن وعده غذایی</h3>
+
+            <p>یک نام برای وعده غذایی و همچنین میزان کالری آن را وارد نمایید. </p>
+            <div class="uk-grid-small " uk-grid>
+                <div class="uk-width-1-2@s uk-padding-remove">
+                    <input type="text" class="uk-input" placeholder="نام وعده غذایی">
+                </div>
+                <div class="uk-width-1-2@s uk-padding-remove">
+                    <input type="number" class="uk-input" placeholder="میزان کالری" min="0">
+                </div>
+                <div class="uk-width-1-1@s uk-padding-remove">
+                    <button class="uk-button uk-label-success uk-width-1-5@s uk-display-inline-block ">
+                        <span>افزودن</span>
+                        <span class="uk-icon" uk-icon="icon: plus;  ratio: 1.1"></span>
+                    </button>
+                    <button class="uk-button uk-label-warning uk-width-1-5@s uk-display-inline-block uk-margin">
+                        <span>افزودن</span>
+                        <span class="uk-icon" uk-icon="icon: pencil;  ratio: 1.1"></span>
+                    </button>
+                    <button class="uk-button uk-label-danger uk-width-1-5@s uk-display-inline-block">
+                        <span>حذف</span>
+                        <span class="uk-icon" uk-icon="icon: trash;  ratio: 1.1"></span>
+                    </button>
+                    <button class="uk-button uk-background-secondary uk-width-1-5@s uk-display-inline-block uk-margin uk-float-left">
+                        <span class="uk-text-muted">برگشت</span>
+                        <span class="uk-icon" uk-icon="icon: reply;  ratio: 1.1"></span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="uk-card uk-card-body uk-card-default uk-margin-medium-top">
+            <h3 class="uk-card-title uk-text-center uk-text-large">
+                جمع کالری‌ها :
+            <span>0</span>
+            </h3>
+
+            <ul class="uk-list uk-list-striped">
+                <li>
+                   <div class="uk-padding-small">
+                       <span class="uk-icon" uk-icon="chevron-left"></span>
+                       تخم مرغ
+                       <span class="uk-badge uk-label-danger">3100</span>
+                       <a href="#" class="uk-text-success">
+                           <span class="uk-icon uk-float-left" uk-icon="icon: pencil; ratio: 1.3"></span>
+                       </a>
+                   </div>
+                </li>
+                <li>
+                    <div class="uk-padding-small">
+                        <span class="uk-icon" uk-icon="chevron-left"></span>
+                        تخم مرغ
+                        <span class="uk-badge uk-label-warning">3100</span>
+                        <a href="#" class="uk-text-success">
+                            <span class="uk-icon uk-float-left" uk-icon="icon: pencil; ratio: 1.3"></span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-padding-small">
+                        <span class="uk-icon" uk-icon="chevron-left"></span>
+                        تخم مرغ
+                        <span class="uk-badge uk-label-success">3100</span>
+                        <a href="#" class="uk-text-success">
+                            <span class="uk-icon uk-float-left" uk-icon="icon: pencil; ratio: 1.3"></span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true; flip: true">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <div class="uk-margin">
+                <button class="uk-button uk-label-success uk-width-1-1@s uk-display-inline-block ">
+                    <span>افزودن</span>
+                    <span class="uk-icon" uk-icon="icon: plus;  ratio: 1.1"></span>
+                </button>
+                <button class="uk-button uk-label-warning uk-width-1-1@s uk-display-inline-block uk-margin">
+                    <span>افزودن</span>
+                    <span class="uk-icon" uk-icon="icon: pencil;  ratio: 1.1"></span>
+                </button>
+                <button class="uk-button uk-label-danger uk-width-1-1@s uk-display-inline-block">
+                    <span>حذف</span>
+                    <span class="uk-icon" uk-icon="icon: trash;  ratio: 1.1"></span>
+                </button>
+
+                <button class="uk-button uk-width-1-1@s uk-display-inline-block uk-margin red">
+                    <span>حذف همه</span>
+                    <span class="uk-icon" uk-icon="icon: trash;  ratio: 1.1"></span>
+                </button>
+                <button class="uk-button uk-background-primary uk-width-1-1@s uk-display-inline-block uk-margin uk-float-left" uk-toggle="target: #offcanvas-push">
+                    <span class="uk-text-muted">برگشت</span>
+                    <span class="uk-icon" uk-icon="icon: reply;  ratio: 1.1"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
