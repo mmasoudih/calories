@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="19845265-d67a-404d-a8ba-e43e9b9a9f3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itemControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/itemControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storageControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storageControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uiControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/uiControl.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -22,17 +32,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aeo3jTzYwz7GgMuKOgQJ44tfMD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,16 +65,25 @@
       <option name="presentableId" value="Default" />
       <updated>1587105222769</updated>
       <workItem from="1587105225084" duration="6640000" />
+      <workItem from="1587115323549" duration="24038000" />
+      <workItem from="1587223469719" duration="12070000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="347" y="177" key="run.anything.popup" timestamp="1587106054756">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="347" y="177" key="run.anything.popup/0.32.1366.736@0.32.1366.736" timestamp="1587106054756" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1587225262029">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1587225262029" />
   </component>
 </project>

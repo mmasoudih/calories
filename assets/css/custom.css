@@ -8,3 +8,6 @@
 .red{
     background: #6b6bff;
 }
+.hide{
+    display: none !important;
+}
